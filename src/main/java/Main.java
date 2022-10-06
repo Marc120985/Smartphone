@@ -14,9 +14,10 @@ public class Main {
         Smartphone myPhone = new Smartphone("13.2","Iphone", friendlist);
 
         System.out.println("Mein Smartphone: " + myPhone);
-        System.out.println(myPhone.startRadio());
-        System.out.println(myPhone.stopRadio());
+        myPhone.startRadio();
+        myPhone.stopRadio();
         System.out.println("GPS Position: " + myPhone.getPosition());
+
 
 
 
