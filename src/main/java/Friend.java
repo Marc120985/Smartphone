@@ -7,13 +7,12 @@ public class Friend extends Contact{
 
         super.contactName = name;
         this.phoneNumber = phoneNumber;
-
     }
 
-
+// Was macht diese Methode hier?
     @Override
     public String getName() {
-        return contactName;
+        return null;
     }
 
 
