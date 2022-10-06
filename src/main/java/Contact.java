@@ -1,5 +1,8 @@
 public abstract class Contact {
-    String nameContact;
+     String contactName;
+
+
 
     public abstract String getName();
+
 }
