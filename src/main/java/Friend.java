@@ -9,16 +9,16 @@ public class Friend extends Contact{
         this.phoneNumber = phoneNumber;
     }
 
-// Was macht diese Methode hier?
+
     @Override
     public String getName() {
-        return null;
+        return contactName;
     }
 
 
     @Override
     public String toString() {
-        return "Friend:" +
+        return "\nFriend:" +
                 "\nName: " + contactName +
                 "\nTelefonnummer :" + phoneNumber
                 ;
